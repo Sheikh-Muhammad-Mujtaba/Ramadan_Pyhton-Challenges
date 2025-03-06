@@ -129,7 +129,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🔐 Password Generator")
-length = st.slider("📏 Length of password", min_value=4, max_value=30, value=8)
+length = st.slider("📏 Length of password", min_value=8, max_value=30, value=16)
 use_digits = st.checkbox("🔢 Use digits")
 use_special = st.checkbox("✨ Use special characters")
 
