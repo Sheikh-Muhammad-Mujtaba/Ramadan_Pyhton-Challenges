@@ -23,29 +23,12 @@ Ramadan_Python_Challenges/
 
 ```
 
-## How to Use
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Sheikh-Muhammad-Mujtaba/Ramadan_Pyhton-Challenges.git
-    ```
-
-2. Navigate to the day's folder you want to explore:
-    ```bash
-    cd src/Ramadan_Python_Challenges/day_0
-    ```
-
-3. Run the Python script for day 0:
-    ```bash
-    uv run zero
-    ```
-
 ## Daily Challenges
 
-- **Day 0**: Number Guessing Game
-- **Day 1**: [Description of Day 1 Challenge]
-- **Day 2**: [Description of Day 2 Challenge]
-- ...
+- **Day 0**: [Number Guessing Game](./src/ramadan_pyhton_challenges/day_0/main.py)
+- **Day 1**: [Cli todo list](./src/ramadan_pyhton_challenges/day_1/main.py)
+- **Day 2**: [Unit Converter](./src/ramadan_pyhton_challenges/day_2/main.py)
+- **Day 3**: [Password Generator](./src/ramadan_pyhton_challenges/day_3/main.py)
 
 ## Contributing
 
