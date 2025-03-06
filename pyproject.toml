@@ -19,7 +19,6 @@ ramadan-pyhton-challenges = "ramadan_pyhton_challenges:main"
 zero = "ramadan_pyhton_challenges.day_0.main:num_guessing_game"
 one = "ramadan_pyhton_challenges.day_1.main:cli"
 
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
