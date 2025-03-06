@@ -17,6 +17,8 @@ dependencies = [
 [project.scripts]
 zero = "ramadan_pyhton_challenges.day_0.main:num_guessing_game"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/ramadan_pyhton_challenges"]
 
 [build-system]
 requires = ["hatchling"]
