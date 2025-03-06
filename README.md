@@ -28,8 +28,9 @@ Ramadan_Python_Challenges/
 - **Day 0**: [Number Guessing Game 🔗](./src/ramadan_pyhton_challenges/day_0/main.py)
 - **Day 1**: [Cli todo list 🔗](./src/ramadan_pyhton_challenges/day_1/main.py)
 - **Day 2**: [Unit Converter 🔗](./src/ramadan_pyhton_challenges/day_2/main.py)
+    - [live 🔗](https://unit-convertor-beta.streamlit.app/)
 - **Day 3**: [Password Generator 🔗](./src/ramadan_pyhton_challenges/day_3/main.py)
-    - [live 🔗]()
+    - [live 🔗](https://pass-gen-beta.streamlit.app/)
 
 ## Contributing
 
