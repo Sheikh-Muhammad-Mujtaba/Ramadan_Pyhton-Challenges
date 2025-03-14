@@ -12,6 +12,8 @@ dependencies = [
     "dotenv>=0.9.9",
     "fastapi[standard]>=0.115.11",
     "google-generativeai>=0.8.4",
+    "pandas>=2.2.3",
+    "pandas-stubs>=2.2.3.250308",
     "streamlit>=1.43.0",
     "types-requests>=2.32.0.20250306",
 ]
