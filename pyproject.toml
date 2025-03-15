@@ -24,6 +24,9 @@ zero = "ramadan_pyhton_challenges.day_0.main:num_guessing_game"
 [tool.hatch.build.targets.wheel]
 packages = ["src/ramadan_pyhton_challenges"]
 
+[tool.uv.workspace]
+members = ["src/ramadan_pyhton_challenges/day_4"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
