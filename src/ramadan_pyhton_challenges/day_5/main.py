@@ -109,7 +109,7 @@ def generate_money():
 # Function to fetch side hustle ideas
 def fetch_side_hustle():
     try:
-        response = requests.get("http://127.0.0.1:8000/side-hustles?apiKey=1234567890")
+        response = requests.get("https://simplefastapi.vercel.app/side-hustles?apiKey=1234567890")
         if response.status_code == 200:
             hustles = response.json()
             return hustles['side_hustle']
@@ -121,7 +121,7 @@ def fetch_side_hustle():
 # Function to fetch money quotes
 def fetch_money_quote():
     try:
-        response = requests.get("http://127.0.0.1:8000/money-quotes?QuoteRange=1&All=false")
+        response = requests.get("https://simplefastapi.vercel.app/money-quotes?QuoteRange=1&All=false")
         if response.status_code == 200:
             quotes = response.json()
             return quotes['money_quote'][0]
