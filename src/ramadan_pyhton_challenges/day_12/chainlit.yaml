@@ -1,0 +1,24 @@
+chainlit: 2.4.1
+
+# Interface settings
+ui:
+  name: "CyberSheikh"
+  description: "An advanced AI chatbot an IT Expert which helps and guide you about Security and IT Support."
+  primary_color : "#008080"  
+  background_color : "#f8f9fa"
+  font : "Arial, sans-serif"
+  logo : "assets/logo_dark.png"
+# Message settings
+default_expand_messages: true
+
+# Auth settings
+auth:
+  required: true
+  providers: 
+    - github
+
+# OAuth Configuration
+oauth_providers:
+  github:
+    client_id: ${OAUTH_GITHUB_CLIENT_ID}
+    client_secret: ${OAUTH_GITHUB_CLIENT_SECRET} 
