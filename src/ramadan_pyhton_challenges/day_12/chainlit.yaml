@@ -22,3 +22,4 @@ oauth_providers:
   github:
     client_id: ${OAUTH_GITHUB_CLIENT_ID}
     client_secret: ${OAUTH_GITHUB_CLIENT_SECRET} 
+

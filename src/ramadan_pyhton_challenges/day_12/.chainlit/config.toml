@@ -92,3 +92,32 @@ cot = "tool_call"
 
 [meta]
 generated_by = "2.4.1"
+
+
+[app]
+title = "CyberSheikh AI"  # App title
+description = "Your Ethical Hacking Assistant"  # Subtitle
+author = "Sheikh Mujtaba"
+image = "/assets/logo_dark.png"  # Path to logo (transparent PNG, 200x200px)
+favicon = "/assets/favicon.ico"  # Optional favicon
+
+[theme.light]
+primary = "#4F46E5"  # Purple (Tailwind indigo-600)
+background = "#FFFFFF"
+text = "#1F2937"
+
+[theme.dark]
+primary = "#7C3AED"
+background = "#1F2937"
+text = "#FFFFFF"
+
+[sidebar]
+title = "Links"
+
+[[sidebar.items]]
+label = "GitHub"
+url = "https://github.com/your-repo"
+
+[[sidebar.items]]
+label = "LinkedIn"
+url = "https://linkedin.com/in/your-profile"
