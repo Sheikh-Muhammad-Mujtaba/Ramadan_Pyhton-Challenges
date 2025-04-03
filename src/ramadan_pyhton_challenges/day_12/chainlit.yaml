@@ -7,7 +7,7 @@ ui:
   primary_color : "#008080"  
   background_color : "#f8f9fa"
   font : "Arial, sans-serif"
-  logo : "assets/logo_dark.png"
+  logo : "./assets/logo_dark.png"
 # Message settings
 default_expand_messages: true
 
