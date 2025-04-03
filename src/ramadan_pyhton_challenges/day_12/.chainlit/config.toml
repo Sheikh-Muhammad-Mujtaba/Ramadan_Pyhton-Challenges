@@ -58,15 +58,20 @@ edit_message = true
 # Name of the assistant.
 name = "CyberSheikh"
 
-# default_theme = "dark"
+default_theme = "dark"
 
 # layout = "wide"
-login_page_image = "/assets/custom-background.jpg"
+login_page_image = "./assets/custom-background.jpg"
 # Description of the assistant. This is used for HTML tags.
 description = "This chatbot is CyberSheikh an IT Expert which helps and guide user about Security and IT Support."
 
 # Chain of Thought (CoT) display mode. Can be "hidden", "tool_call" or "full".
 cot = "tool_call"
+
+title = "CyberSheikh AI"  # App title
+author = "Sheikh Mujtaba"
+image = "./assets/logo_dark.png"  # Path to logo (transparent PNG, 200x200px)
+favicon = "./assets/favicon.ico"  # Optional favicon
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
@@ -98,8 +103,8 @@ generated_by = "2.4.1"
 title = "CyberSheikh AI"  # App title
 description = "Your Ethical Hacking Assistant"  # Subtitle
 author = "Sheikh Mujtaba"
-image = "/assets/logo_dark.png"  # Path to logo (transparent PNG, 200x200px)
-favicon = "/assets/favicon.ico"  # Optional favicon
+image = "./assets/logo_dark.png"  # Path to logo (transparent PNG, 200x200px)
+favicon = "./assets/favicon.ico"  # Optional favicon
 
 [theme.light]
 primary = "#4F46E5"  # Purple (Tailwind indigo-600)
