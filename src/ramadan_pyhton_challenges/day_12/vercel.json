@@ -1,15 +1,19 @@
 {
+    "version": 2,
     "builds": [
       {
         "src": "main.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
+        "config": { 
+          "maxLambdaSize": "15mb",  // Chainlit needs extra space
+          "includeFiles": ["public/**", "chainlit.md"] 
+        }
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/main.py"
+        "dest": "main.py"
       }
     ]
   }
-  
