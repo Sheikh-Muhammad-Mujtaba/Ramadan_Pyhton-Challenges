@@ -5,7 +5,6 @@ import sqlite3
 import chainlit as cl
 from typing import Optional, Dict
 import traceback
-from chainlit.server import app
 
 # Load environment variables and configure the API key
 load_dotenv()
@@ -188,5 +187,3 @@ async def handle_message(message: cl.Message):
         error_message = f"❌ Error: {str(e)}\n\n```{traceback.format_exc()}```"
         print(error_message)  # Log error for debugging
         await cl.Message(content="⚠️ An error occurred. Please try again.").send()
-
-asgi_app = app
