@@ -2,18 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "./main.py",
+      "src": "main.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb",
-        "includeFiles": ["chainlit.md", "assets/**"]
+        "maxLambdaSize": "25mb",
+        "includeFiles": ["chainlit.md", "public/**", "*.db"]
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": ",/main.py"
+      "dest": "main.py",
+      "methods": ["GET", "POST", "WS"] 
     }
   ]
 }

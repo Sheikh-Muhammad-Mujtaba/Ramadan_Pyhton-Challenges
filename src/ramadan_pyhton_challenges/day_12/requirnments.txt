@@ -2,3 +2,4 @@ chainlit
 python-dotenv
 google-generativeai
 sqlite3
+uvicorn  
