@@ -1,3 +1,5 @@
 chainlit
 python-dotenv
 google-generativeai
+sqlite3 
+libsqlite3-dev

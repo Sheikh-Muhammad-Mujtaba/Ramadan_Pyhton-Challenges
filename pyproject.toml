@@ -27,7 +27,7 @@ zero = "ramadan_pyhton_challenges.day_0.main:num_guessing_game"
 packages = ["src/ramadan_pyhton_challenges"]
 
 [tool.uv.workspace]
-members = ["src/ramadan_pyhton_challenges/day_4"]
+members = ["src/ramadan_pyhton_challenges/day_4", "src/ramadan_pyhton_challenges/day_13"]
 
 [build-system]
 requires = ["hatchling"]

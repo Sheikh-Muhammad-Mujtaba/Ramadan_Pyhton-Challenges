@@ -82,7 +82,7 @@ favicon = "./assets/favicon.ico"  # Optional favicon
 # custom_js = "/public/test.js"
 
 # Specify a custom meta image url.
-# custom_meta_image_url = "/public/logo_dark.png"
+custom_meta_image_url = "./assets/logo_dark.png"
 
 # Specify a custom build directory for the frontend.
 # This can be used to customize the frontend code.
@@ -121,8 +121,8 @@ title = "Links"
 
 [[sidebar.items]]
 label = "GitHub"
-url = "https://github.com/your-repo"
+url = "https://github.com/Sheikh-Muhammad-Mujtaba"
 
 [[sidebar.items]]
 label = "LinkedIn"
-url = "https://linkedin.com/in/your-profile"
+url = "https://www.linkedin.com/in/sheikh-m-mujtaba-javed-0362872b9/"
